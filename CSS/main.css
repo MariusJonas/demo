@@ -1,0 +1,36 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.hero-background {
+    background-color: #6da1dd;
+}
+
+.hero-content {
+    display: inline-block;
+    width: 500px;
+    margin: 0 calc( ( 100% - 500px) / 2);
+    background-color: red;
+}
+
+#hero .logo {}
+
+#hero h1 {}
+
+#hero p {}
+
+#hero .clock {}
+
+#hero .clock>.clock-block>.value {}
+
+#hero .clock>.clock-block>.title {}
+
+#hero form {}
+
+#hero form>input {}
+
+#hero form>btn {}
